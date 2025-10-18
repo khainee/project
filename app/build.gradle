@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace "com.my.freemyanmarid"
+    namespace com.my.freemyanmarid
     compileSdkVersion 33
 
     defaultConfig {

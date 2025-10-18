@@ -208,11 +208,6 @@
     </attr>
     <attr name="boxBackgroundColor" format="color">
     </attr>
-    <attr name="boxBackgroundMode">
-        <enum name="filled" value="1" />
-        <enum name="none" value="0" />
-        <enum name="outline" value="2" />
-    </attr>
     <attr name="boxCollapsedPaddingTop" format="dimension">
     </attr>
     <attr name="boxCornerRadiusBottomEnd" format="dimension">
@@ -547,14 +542,6 @@
     </attr>
     <attr name="coordinatorLayoutStyle" format="reference">
     </attr>
-    <attr name="cornerFamilyBottomLeft">
-        <enum name="cut" value="1" />
-        <enum name="rounded" value="0" />
-    </attr>
-    <attr name="cornerFamilyBottomRight">
-        <enum name="cut" value="1" />
-        <enum name="rounded" value="0" />
-    </attr>
     <attr name="cornerRadius" format="dimension">
     </attr>
     <attr name="cornerSize" format="dimension|fraction">
@@ -726,13 +713,6 @@
     <attr name="endIconDrawable" format="reference">
     </attr>
     <attr name="endIconTint" format="color">
-    </attr>
-    <attr name="endIconTintMode">
-        <enum name="multiply" value="14" />
-        <enum name="screen" value="15" />
-        <enum name="src_atop" value="9" />
-        <enum name="src_in" value="5" />
-        <enum name="src_over" value="3" />
     </attr>
     <attr name="enforceMaterialTheme" format="boolean">
     </attr>
@@ -973,14 +953,6 @@
     <attr name="iconStartPadding" format="dimension">
     </attr>
     <attr name="iconTint" format="color">
-    </attr>
-    <attr name="iconTintMode">
-        <enum name="add" value="16" />
-        <enum name="multiply" value="14" />
-        <enum name="screen" value="15" />
-        <enum name="src_atop" value="9" />
-        <enum name="src_in" value="5" />
-        <enum name="src_over" value="3" />
     </attr>
     <attr name="iconifiedByDefault" format="boolean">
     </attr>
@@ -1522,12 +1494,6 @@
     </attr>
     <attr name="navigationViewStyle" format="reference">
     </attr>
-    <attr name="nestedScrollFlags">
-        <flag name="disablePostScroll" value="1" />
-        <flag name="disableScroll" value="2" />
-        <flag name="none" value="0" />
-        <flag name="supportScrollUp" value="4" />
-    </attr>
     <attr name="nestedScrollViewStyle" format="reference">
     </attr>
     <attr name="nestedScrollable" format="boolean">
@@ -1550,16 +1516,6 @@
         <enum name="actionUp" value="2" />
         <enum name="sharedValueSet" value="4" />
         <enum name="sharedValueUnset" value="5" />
-    </attr>
-    <attr name="onTouchUp">
-        <enum name="autoComplete" value="0" />
-        <enum name="autoCompleteToEnd" value="2" />
-        <enum name="autoCompleteToStart" value="1" />
-        <enum name="decelerate" value="4" />
-        <enum name="decelerateAndComplete" value="5" />
-        <enum name="neverCompleteToEnd" value="7" />
-        <enum name="neverCompleteToStart" value="6" />
-        <enum name="stop" value="3" />
     </attr>
     <attr name="overlapAnchor" format="boolean">
     </attr>
@@ -1884,20 +1840,7 @@
     </attr>
     <attr name="tabContentStart" format="dimension">
     </attr>
-    <attr name="tabGravity">
-        <enum name="center" value="1" />
-        <enum name="fill" value="0" />
-        <enum name="start" value="2" />
-    </attr>
     <attr name="tabIconTint" format="color">
-    </attr>
-    <attr name="tabIconTintMode">
-        <enum name="add" value="16" />
-        <enum name="multiply" value="14" />
-        <enum name="screen" value="15" />
-        <enum name="src_atop" value="9" />
-        <enum name="src_in" value="5" />
-        <enum name="src_over" value="3" />
     </attr>
     <attr name="tabIndicator" format="reference">
     </attr>
