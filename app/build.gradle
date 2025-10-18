@@ -4,13 +4,13 @@ plugins {
 
 android {
 	namespace "com.my.freemyanmarid"
-    compileSdkVersion 28
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId 'com.my.freemyanmarid'
         minSdkVersion 21
         //noinspection ExpiringTargetSdkVersion,ExpiredTargetSdkVersion
-        targetSdkVersion 28
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
