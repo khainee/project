@@ -445,7 +445,6 @@
 <attr name="fontFamily" format="string" />
 <attr name="fontProviderAuthority" format="string" />
 <attr name="fontProviderCerts" format="reference" />
-<attr name="fontProviderFetchStrategy"><enum name="async" value="1" /><enum name="blocking" value="0" /></attr>
 <attr name="fontProviderFetchTimeout" format="integer"><enum name="forever" value="-1" /></attr>
 <attr name="fontProviderPackage" format="string" />
 <attr name="fontProviderQuery" format="string" />
