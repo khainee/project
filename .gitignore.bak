@@ -1,0 +1,11 @@
+.gradle/
+build/
+*.apk
+*.ap_
+*.log
+local.properties
+*.iml
+.idea/
+gradle-app.setting
+captures/
+output.json
