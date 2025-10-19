@@ -96,7 +96,7 @@
         <flag name="CTRL" value="0x1000" />
         <flag name="FUNCTION" value="0x8" />
         <flag name="META" value="0x10000" />
-        <flag name="SHIFT" value="0x1" />
+        <flag name="SHIFT" value="center" />
         <flag name="SYM" value="0x4" />
     </attr>
     <attr name="altSrc" format="reference">
@@ -229,14 +229,14 @@
     <attr name="behavior_overlapTop" format="dimension">
     </attr>
     <attr name="behavior_peekHeight" format="dimension">
-        <enum name="auto" value="-1" />
+        <enum name="auto" value="match_parent" />
     </attr>
     <attr name="behavior_saveFlags">
-        <flag name="all" value="-1" />
+        <flag name="all" value="match_parent" />
         <flag name="fitToContents" value="0x2" />
         <flag name="hideable" value="0x4" />
         <flag name="none" value="0" />
-        <flag name="peekHeight" value="0x1" />
+        <flag name="peekHeight" value="center" />
         <flag name="skipCollapsed" value="0x8" />
     </attr>
     <attr name="behavior_skipCollapsed" format="boolean">
@@ -465,7 +465,7 @@
         <flag name="jumpToEnd" value="0x100" />
         <flag name="jumpToStart" value="0x1000" />
         <flag name="toggle" value="0x11" />
-        <flag name="transitionToEnd" value="0x1" />
+        <flag name="transitionToEnd" value="center" />
         <flag name="transitionToStart" value="0x10" />
     </attr>
     <attr name="clockFaceBackgroundColor" format="color">
@@ -501,7 +501,7 @@
     <attr name="collapsedTitleGravity">
         <flag name="bottom" value="0x50" />
         <flag name="center" value="0x11" />
-        <flag name="center_horizontal" value="0x1" />
+        <flag name="center_horizontal" value="center" />
         <flag name="center_vertical" value="0x10" />
         <flag name="end" value="0x800005" />
         <flag name="fill_vertical" value="0x70" />
@@ -768,7 +768,7 @@
         <flag name="showCustom" value="0x10" />
         <flag name="showHome" value="0x2" />
         <flag name="showTitle" value="0x8" />
-        <flag name="useLogo" value="0x1" />
+        <flag name="useLogo" value="center" />
     </attr>
     <attr name="divider" format="reference">
     </attr>
@@ -872,7 +872,7 @@
     </attr>
     <attr name="endIconMode">
         <enum name="clear_text" value="2" />
-        <enum name="custom" value="-1" />
+        <enum name="custom" value="match_parent" />
         <enum name="dropdown_menu" value="3" />
         <enum name="none" value="0" />
         <enum name="password_toggle" value="1" />
@@ -920,7 +920,7 @@
     <attr name="expandedTitleGravity">
         <flag name="bottom" value="0x50" />
         <flag name="center" value="0x11" />
-        <flag name="center_horizontal" value="0x1" />
+        <flag name="center_horizontal" value="center" />
         <flag name="center_vertical" value="0x10" />
         <flag name="end" value="0x800005" />
         <flag name="fill_vertical" value="0x70" />
@@ -974,7 +974,7 @@
     <attr name="fabCustomSize" format="dimension">
     </attr>
     <attr name="fabSize">
-        <enum name="auto" value="-1" />
+        <enum name="auto" value="match_parent" />
         <enum name="mini" value="1" />
         <enum name="normal" value="0" />
     </attr>
@@ -1089,7 +1089,7 @@
         <enum name="blocking" value="0" />
     </attr>
     <attr name="fontProviderFetchTimeout" format="integer">
-        <enum name="forever" value="-1" />
+        <enum name="forever" value="match_parent" />
     </attr>
     <attr name="fontProviderPackage" format="string">
     </attr>
@@ -1168,7 +1168,7 @@
     </attr>
     <attr name="iconGravity">
         <flag name="end" value="0x3" />
-        <flag name="start" value="0x1" />
+        <flag name="start" value="center" />
         <flag name="textEnd" value="0x4" />
         <flag name="textStart" value="0x2" />
         <flag name="textTop" value="0x20" />
@@ -1316,7 +1316,7 @@
     <attr name="labelStyle" format="reference">
     </attr>
     <attr name="labelVisibilityMode">
-        <enum name="auto" value="-1" />
+        <enum name="auto" value="match_parent" />
         <enum name="labeled" value="1" />
         <enum name="selected" value="0" />
         <enum name="unlabeled" value="2" />
@@ -1341,7 +1341,7 @@
     <attr name="layout_anchorGravity">
         <flag name="bottom" value="0x50" />
         <flag name="center" value="0x11" />
-        <flag name="center_horizontal" value="0x1" />
+        <flag name="center_horizontal" value="center" />
         <flag name="center_vertical" value="0x10" />
         <flag name="clip_horizontal" value="0x8" />
         <flag name="clip_vertical" value="0x80" />
@@ -1408,7 +1408,7 @@
     </attr>
     <attr name="layout_constraintHeight" format="string|dimension">
         <enum name="match_constraint" value="-3" />
-        <enum name="match_parent" value="-1" />
+        <enum name="match_parent" value="match_parent" />
         <enum name="wrap_content" value="-2" />
         <enum name="wrap_content_constrained" value="-4" />
     </attr>
@@ -1477,7 +1477,7 @@
     </attr>
     <attr name="layout_constraintWidth" format="string|dimension">
         <enum name="match_constraint" value="-3" />
-        <enum name="match_parent" value="-1" />
+        <enum name="match_parent" value="match_parent" />
         <enum name="wrap_content" value="-2" />
         <enum name="wrap_content_constrained" value="-4" />
     </attr>
@@ -1560,7 +1560,7 @@
         <flag name="enterAlwaysCollapsed" value="0x8" />
         <flag name="exitUntilCollapsed" value="0x2" />
         <flag name="noScroll" value="0x0" />
-        <flag name="scroll" value="0x1" />
+        <flag name="scroll" value="center" />
         <flag name="snap" value="0x10" />
         <flag name="snapMargins" value="0x20" />
     </attr>
@@ -1796,7 +1796,7 @@
     <attr name="motionEffect_end" format="integer">
     </attr>
     <attr name="motionEffect_move">
-        <enum name="auto" value="-1" />
+        <enum name="auto" value="match_parent" />
         <enum name="east" value="2" />
         <enum name="north" value="0" />
         <enum name="south" value="1" />
@@ -1873,7 +1873,7 @@
         <flag name="CTRL" value="0x1000" />
         <flag name="FUNCTION" value="0x8" />
         <flag name="META" value="0x10000" />
-        <flag name="SHIFT" value="0x1" />
+        <flag name="SHIFT" value="center" />
         <flag name="SYM" value="0x4" />
     </attr>
     <attr name="onCross" format="string">
